@@ -4,6 +4,7 @@
   "description": "Vercel frontend + API for faster-whisper GPU backend",
   "type": "module",
   "scripts": {
+    "dev": "node api/transcribe.js",
     "start": "node api/transcribe.js"
   },
   "dependencies": {
