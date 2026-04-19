@@ -1,6 +1,11 @@
 {
-  "name": "faster-api",
+  "name": "vercel-whisper-client",
   "version": "1.0.0",
+  "description": "Vercel frontend + API for faster-whisper GPU backend",
+  "type": "module",
+  "scripts": {
+    "start": "node api/transcribe.js"
+  },
   "dependencies": {
     "formidable": "^3.5.1",
     "form-data": "^4.0.0",
